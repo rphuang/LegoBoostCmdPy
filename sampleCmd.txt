@@ -1,0 +1,21 @@
+motorab.pos 1000,50
+sleep 3
+motorab.pos 0,50
+sleep 3
+motorab 50
+sleep 1
+stop
+sleep 3
+motorext.pos 60,30
+sleep 2
+motorext.pos -60,30
+sleep 2
+motorext.pos 0,30
+sleep 2
+motorab 50,-50
+sleep 1
+stop
+motorab -50,50
+sleep 1
+stop
+sleep 3
