@@ -41,6 +41,7 @@ class BoostCmd(object):
         print ('  motorA   - run motor A at specified speed')
         print ('  motorB   - run motor B at specified speed')
         print ('  motorExt - run motor Ext at specified speed')
+        print ('  mode     - run Boost with the specified auto mode')
         print ('  start    - connect and start up (initialize) Lego Boost')
         print ('  shutoff  - shut off the Lego Boost')
         print ('  run      - load and execute commands from file (default: boostCommand.txt)')
@@ -51,6 +52,7 @@ class BoostCmd(object):
         print ('  motorAB.pos 200 - run both A B motors to position 200')
         print ('  motorAB 100,50  - run motor A at speed 100, motor B at speed 50')
         print ('  run testCmds.txt - load and execute commands from testCmds.txt')
+        print ('  mode wander - run Boost in wander mode')
 
     def _doCommandFromFile(self, fileName):
         ''' load commands from file and send to the bot '''
