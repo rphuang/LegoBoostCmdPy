@@ -26,13 +26,13 @@ One of the feature is to stop Boost when it runs to obstacle using the distance 
 
 # Auto Modes
 The command supports several auto modes:
-	1. Wander (mode wander) - when enabled, the prog uses the distance sensor to control Boost to wander around. It runs backward when encounters an obstacle the try to find an open route to continue. The followings are the primary states for the wander mode.
-		* Moving - move forward until it is stopped by sensing obstacle
-		* Backward - move backward when encounter obstacle
-		* Scan - move Boost to different direction and try to find an open route to move. It starts moving once an open route is found.
-	2. Follow (mode follow) - set to this mode allows Boost to follow an object detected by the distance sensor. Note that, for now, this mode only supports forward/backward movements (no turning).
-	3. Face tracking (mode face) - this is only available when running on Raspberry Pi with camera.
-	4. Manual (mode manual) - use manual mode to turn off any of the above auto modes.
+1. Wander (mode wander) - when enabled, the prog uses the distance sensor to control Boost to wander around. It runs backward when encounters an obstacle the try to find an open route to continue. The followings are the primary states for the wander mode.
+	* Moving - move forward until it is stopped by sensing obstacle
+	* Backward - move backward when encounter obstacle
+	* Scan - move Boost to different direction and try to find an open route to move. It starts moving once an open route is found.
+2. Follow (mode follow) - set to this mode allows Boost to follow an object detected by the distance sensor. Note that, for now, this mode only supports forward/backward movements (no turning).
+3. Face tracking (mode face) - this is only available when running on Raspberry Pi with camera.
+4. Manual (mode manual) - use manual mode to turn off any of the above auto modes.
 
 # Configuration
 * Boost Configuration - boostconfig.txt
