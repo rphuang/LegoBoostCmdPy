@@ -37,32 +37,32 @@ The command supports several auto modes:
 # Configuration
 * Boost Configuration - boostconfig.txt
     * motor speed & power
-		motor.minMovingSpeed - min speed for all motors
-		motor.maxPower - max power for all motors
+		* motor.minMovingSpeed - min speed for all motors
+		* motor.maxPower - max power for all motors
 	* distance checker configuration
-		distanceChecker.enableThread - set to 1 to enable distance checking
-		distanceChecker.scanCycleInSecond - specify how often to run the distance check
-		distanceChecker.stopDistance - the distance to stop (in meter)
-		distanceChecker.emergencyStopDistance - the distance to emergency stop (in meter)
-		distanceChecker.slowdownDistance - the distance to slowdown (in meter)
-		distanceChecker.maxSlowdownSpeed - the max slowdown speed during distance check
+		* distanceChecker.enableThread - set to 1 to enable distance checking
+		* distanceChecker.scanCycleInSecond - specify how often to run the distance check
+		* distanceChecker.stopDistance - the distance to stop (in meter)
+		* distanceChecker.emergencyStopDistance - the distance to emergency stop (in meter)
+		* distanceChecker.slowdownDistance - the distance to slowdown (in meter)
+		* distanceChecker.maxSlowdownSpeed - the max slowdown speed during distance check
 	* auto modes configuration
-		auto.defaultSpeed - the default speed for auto modes
-		auto.forwardSpeed - the forward speed for auto modes
-		auto.backwardSpeed - the backward speed for auto modes
-		wander.backwardTime - number of seconds to move backward in wander mode when in front of obstacle
-		wander.stateTimeout - timeout in seconds for all states in wander mode
-		wander.stateDelayInSecond - delay between states in wander mode
-		follow.maxFollowDistance - the maximum distance to follow in meter (9 inch is the sensor limit)
-		follow.distanceOffset - controls the sensitivity for follow mode
-		follow.followDistance - the distance in meter for Boost to follow the object
-		follow.slowdownDistance - the distance to slowdown in follow mode (in meter)
+		* auto.defaultSpeed - the default speed for auto modes
+		* auto.forwardSpeed - the forward speed for auto modes
+		* auto.backwardSpeed - the backward speed for auto modes
+		* wander.backwardTime - number of seconds to move backward in wander mode when in front of obstacle
+		* wander.stateTimeout - timeout in seconds for all states in wander mode
+		* wander.stateDelayInSecond - delay between states in wander mode
+		* follow.maxFollowDistance - the maximum distance to follow in meter (9 inch is the sensor limit)
+		* follow.distanceOffset - controls the sensitivity for follow mode
+		* follow.followDistance - the distance in meter for Boost to follow the object
+		* follow.slowdownDistance - the distance to slowdown in follow mode (in meter)
 * Video Configuration - videoconfig-pi.txt
-	camera.width - camera width resolution
-	camera.height - camera height resolution
-	camera.drawCrosshair - whether to draw crosshair
-	video.httpVideoPort - the HTTP port number for streaming video
-	video.enableFaceTracking - whether to enable face tracking or not
-	video.classifier - the xml file for face tracking classifier
-	video.indexHtml - the index html file for video streaming
+	* camera.width - camera width resolution
+	* camera.height - camera height resolution
+	* camera.drawCrosshair - whether to draw crosshair
+	* video.httpVideoPort - the HTTP port number for streaming video
+	* video.enableFaceTracking - whether to enable face tracking or not
+	* video.classifier - the xml file for face tracking classifier
+	* video.indexHtml - the index html file for video streaming
 
