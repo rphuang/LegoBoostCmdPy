@@ -20,6 +20,7 @@ Python program to control Lego Boost with input commands or file.
 	   * type "run sampleCmd.txt" to run the commands in the file.
 	   * type "shutoff" to turn off the boost
 	   * type "end" to exit
+![Boost Vernie with RasPi](VernieRasPi.jpg)
 
 # Distance Checker
 One of the feature is to stop Boost when it runs to obstacle using the distance sensor. This is by running a distance checker in separate thread. When enabled, the distance checker will slow down the Boost bot and stop it based on the configuration settings.
